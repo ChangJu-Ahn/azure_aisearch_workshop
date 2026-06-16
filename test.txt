@@ -1,0 +1,23 @@
+
+
+# -------------------------------------------------------------------
+# Azure OpenAI 설정
+# -------------------------------------------------------------------
+# Azure Portal → Azure OpenAI 리소스 → 키 및 엔드포인트에서 확인
+# 또는 Azure AI Studio (https://ai.azure.com)에서 확인
+AZURE_OPEN_AI_ENDPOINT=https://foundry-aisearch-models.openai.azure.com
+
+# Azure Portal → Azure OpenAI 리소스 → 키 및 엔드포인트에서 "KEY 1" 복사
+AZURE_OPEN_AI_KEY=F75btlP0peGJzt74JUuNYuGZbQvqyiJrPbwkdYmjiOIb4ZYwgq1IJQQJ99CCACYeBjFXJ3w3AAAAACOGSW6p
+
+# -------------------------------------------------------------------
+# 모델 배포 이름
+# -------------------------------------------------------------------
+# Azure AI Studio → 배포 탭에서 확인
+# 아래 이름으로 배포했다면 변경하지 마세요.
+AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-large
+AZURE_OPENAI_CHAT_DEPLOYMENT=gpt-5.2
+
+# API 버전 (모델별로 지원하는 버전이 다를 수 있음)
+AZURE_OPENAI_EMBEDDING_API_VERSION=2025-04-01-preview 
+AZURE_OPENAI_CHAT_API_VERSION=2025-04-01-preview 
