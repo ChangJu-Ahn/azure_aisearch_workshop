@@ -185,15 +185,11 @@ Answer: "충전재가 두껍고 보온성이 뛰어나 겨울에도 따뜻합니
 
 ## ⚠️ 주의사항
 
-### 1. 비용 고려
-- Semantic Search는 **별도 요금 부과** (Standard: 쿼리당 $0.50/1000건)
-- 필요한 쿼리에만 선택적 사용 권장
-
-### 2. 최대 제한
+### 1. 최대 제한
 - Re-ranking 대상: **최대 50개 문서**
 - 하이브리드 검색 상위 50개 결과만 재정렬됨
 
-### 3. 응답 시간
+### 2. 응답 시간
 - 하이브리드 검색 대비 +50~100ms 추가 (언어 모델 처리)
 
 ---
@@ -206,7 +202,6 @@ Answer: "충전재가 두껍고 보온성이 뛰어나 겨울에도 따뜻합니
 | 리뷰 기반 품질 검색 | 한계 있음 | ✅ 권장 |
 | 복합 의도 쿼리 | 한계 있음 | ✅ 권장 |
 | 단순 필터 검색 | ✅ 충분 | 불필요 |
-| 비용 민감한 대량 검색 | ✅ 권장 | 선택적 |
 
 ---
 
@@ -234,7 +229,7 @@ Answer: "충전재가 두껍고 보온성이 뛰어나 겨울에도 따뜻합니
 - [ ] 하이브리드 vs 하이브리드+Re-Ranking 결과 차이 확인
 - [ ] Captions와 Answers 기능 이해
 - [ ] @search.rerankerScore 해석 방법 파악
-- [ ] 비용 고려사항 및 사용 시점 이해
+- [ ] 사용 시점(사용 시나리오) 이해
 
 ---
 
@@ -257,4 +252,3 @@ Answer: "충전재가 두껍고 보온성이 뛰어나 겨울에도 따뜻합니
 
 - [Azure AI Search - Semantic Ranking](https://learn.microsoft.com/azure/search/semantic-search-overview)
 - [Semantic Configuration](https://learn.microsoft.com/azure/search/semantic-how-to-query-request)
-- [Pricing Calculator](https://azure.microsoft.com/pricing/details/search/)
