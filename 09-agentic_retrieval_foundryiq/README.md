@@ -134,3 +134,11 @@
 - [Azure AI Foundry - Agentic Retrieval 개요](https://learn.microsoft.com/azure/ai-foundry/agentic-retrieval-overview)
 - [Knowledge Base 구성 가이드](https://learn.microsoft.com/azure/ai-foundry/knowledge-base-setup)
 - [Ignite 2025 LAB511 세션](https://github.com/microsoft/ignite25-LAB511-build-agentic-knowledge-bases-next-level-rag-with-azure-ai-search)
+
+---
+
+## 심층 기술 보고서 (L500)
+
+이 모듈의 Foundry IQ / Agentic Retrieval을 **Copilot Retrieval API · Work IQ MCP · WorkIQ 플랫폼**과 함께 라이브로 실측·교차검증한 기술 심층 보고서입니다. Knowledge Source `kind`(`remoteSharePoint`·`workIQ`·`indexedSharePoint`)별 백엔드 매핑, 인증/OBO/FIC 체인, cross-lingual·의미검색 실증, `dataSource` 커버리지 등을 다룹니다.
+
+👉 [WorkIQ · Work IQ MCP · Copilot Retrieval API — Graph API 대비 기술 심층 보고서](./WorkIQ-Graph-Retrieval-Technical-Report-L500.md)
